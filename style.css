@@ -12,21 +12,11 @@ p {
   color: #000000;
   font-size: 20px;
   font-family: 'Noto Serif JP', serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-
-
-
-.words {
-    margin: 25px;
-    position : fixed;
-    top      : 0%;
-    left     : 25%;
-    height   : 100%;
-    width    : 50%;
-    -webkit-overflow-scrolling: touch;
-    overflow-y: scroll;
-}
 
 
 
