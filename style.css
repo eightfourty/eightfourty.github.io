@@ -9,8 +9,8 @@ body {
 
 
 p {
-  color: #353535;
-  font-size: 14px;
+  color: #000000;
+  font-size: 20px;
   font-family: 'Noto Serif JP', serif;
 }
 
@@ -21,7 +21,7 @@ p {
     margin: 25px;
     position : fixed;
     top      : 0%;
-    right    : 0%;
+    left     : 25%;
     height   : 100%;
     width    : 50%;
     -webkit-overflow-scrolling: touch;
