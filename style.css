@@ -1,0 +1,64 @@
+
+body {
+  background-color: #ced4d9;
+  font-size: 14px;
+  font-family: 'Inconsolata', monospace;
+}
+
+
+h1 {
+  color: #000000;
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Inconsolata', monospace;
+}
+
+h2 {
+  color: #353535;
+  font-size: 14px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 900;
+  line-height: 0;
+}
+
+h3 {
+  color: #353535;
+  font-size: 14px;
+  font-family: 'Inconsolata', monospace;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 0;
+}
+
+
+p {
+  color: #353535;
+  font-size: 14px;
+  font-family: 'Inconsolata', monospace;
+}
+
+
+.title {
+    margin: 25px;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+}
+
+.words {
+    margin: 25px;
+    position : fixed;
+    top      : 0%;
+    right    : 0%;
+    height   : 100%;
+    width    : 50%;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+}
+
+
+
+img {
+  width: 350px;
+  height: auto;
+}
