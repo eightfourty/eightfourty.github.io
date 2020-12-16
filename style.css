@@ -2,7 +2,7 @@
 body {
   background-color: #F6F6F6;
   font-size: 18px;
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Overpass', sans-serif;
 
 }
 
@@ -11,7 +11,7 @@ body {
 p {
   color: #000000;
   font-size: 18px;
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Overpass', sans-serif;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -25,27 +25,35 @@ p {
 }
 
 .right {
-  height: 400px;
+  height: 450px;
   width: auto;
-  margin-left: 55%;
+  margin-left: 45%;
 }
 
 /* unvisited link */
 a:link {
-  color: red;
+  color: blue;
+  text-decoration: none;
+
 }
 
 /* visited link */
 a:visited {
-  color: red;
+  color: blue;
+  text-decoration: none;
+
 }
 
 /* mouse over link */
 a:hover {
-  color: red;
+  color: hotpink;
+  text-decoration: none;
+
 }
 
 /* selected link */
 a:active {
-  color: red;
+  color: blue;
+  text-decoration: none;
+
 }
