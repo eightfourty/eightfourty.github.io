@@ -1,8 +1,8 @@
 
 body {
-  background-color: #ffffff;
-  font-size: 14px;
-  font-family: 'Noto Serif JP', serif;
+  background-color: #F6F6F6;
+  font-size: 18px;
+  font-family: 'Assistant', sans-serif;
 
 }
 
@@ -11,7 +11,7 @@ body {
 p {
   color: #000000;
   font-size: 18px;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Assistant', sans-serif;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -25,7 +25,27 @@ p {
 }
 
 .right {
-  width: 400px;
-  height: auto;
+  height: 400px;
+  width: auto;
   margin-left: 55%;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: red;
 }
